@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "ts-node src/star-wars.ts"
+    "dev": "tsx src/star-wars.ts"
   },
-
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^25.6.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.0.0"
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LuisPintodaFigueira/Que-a-heran-a-esteja-com-voc-.git"
@@ -23,10 +23,5 @@
   "bugs": {
     "url": "https://github.com/LuisPintodaFigueira/Que-a-heran-a-esteja-com-voc-/issues"
   },
-  "homepage": "https://github.com/LuisPintodaFigueira/Que-a-heran-a-esteja-com-voc-#readme",
-  "devDependencies": {
-    "@types/node": "^25.6.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
-  }
+  "homepage": "https://github.com/LuisPintodaFigueira/Que-a-heran-a-esteja-com-voc-#readme"
 }

@@ -1,5 +1,5 @@
-import { perguntar, fecharIO } from "../io";
-import { obrigatorio, parseNumeroInteiro, entre } from "../validators";
+import { perguntar, fecharIO } from "./io.js";
+import { obrigatorio, parseNumeroInteiro, entre } from "./validators.js";
 
 class Personagem {
   protected nome: string;
