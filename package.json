@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/star-wars.ts"
   },
+
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LuisPintodaFigueira/Que-a-heran-a-esteja-com-voc-.git"
